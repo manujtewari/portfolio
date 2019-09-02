@@ -1,0 +1,111 @@
+/* Inter @font-face kit */
+@font-face {
+  font-family: 'Inter';
+
+  src: url('../fonts/Inter/WEB/Inter-Black.woff') format('woff'), url('../fonts/Inter/TTF/Inter-Black.ttf') format('truetype'), url('../fonts/Inter/OTF/Inter-Black.otf') format('opentype');
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  src: url('../fonts/Inter/WEB/Inter-BlackItalic.woff') format('woff'), url('../fonts/Inter/TTF/Inter-BlackItalic.ttf') format('truetype'), url('../fonts/Inter/OTF/Inter-BlackItalic.otf') format('opentype');
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  src: url('../fonts/Inter/WEB/Inter-Book.woff') format('woff'), url('../fonts/Inter/TTF/Inter-Book.ttf') format('truetype'), url('../fonts/Inter/OTF/Inter-Book.otf') format('opentype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  src: url('../fonts/Inter/WEB/Inter-BookItalic.woff') format('woff'), url('../fonts/Inter/TTF/Inter-BookItalic.ttf') format('truetype'), url('../fonts/Inter/OTF/Inter-BookItalic.otf') format('opentype');
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Inter';
+
+  src: url('../fonts/Inter/WEB/Inter-ExtraBold.woff') format('woff'), url('../fonts/Inter/TTF/Inter-ExtraBold.ttf') format('truetype'), url('../fonts/Inter/OTF/Inter-ExtraBold.otf') format('opentype');
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  src: url('../fonts/Inter/WEB/Inter-ExtraBoldItalic.woff') format('woff'), url('../fonts/Inter/TTF/Inter-ExtraBoldItalic.ttf') format('truetype'), url('../fonts/Inter/OTF/Inter-ExtraBoldItalic.otf') format('opentype');
+  font-style: italic;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  src: url('../fonts/Inter/WEB/Inter-Medium.woff') format('woff'), url('../fonts/Inter/TTF/Inter-Medium.ttf') format('truetype'), url('../fonts/Inter/OTF/Inter-Medium.otf') format('opentype');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  src: url('../fonts/Inter/WEB/Inter-MediumItalic.woff') format('woff'), url('../fonts/Inter/TTF/Inter-MediumItalic.ttf') format('truetype'), url('../fonts/Inter/OTF/Inter-MediumItalic.otf') format('opentype');
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  src: url('../fonts/Inter/WEB/Inter-Regular.woff') format('woff'), url('../fonts/Inter/TTF/Inter-Regular.ttf') format('truetype'), url('../fonts/Inter/OTF/Inter-Regular.otf') format('opentype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  src: url('../fonts/Inter/WEB/Inter-Italic.woff') format('woff'), url('../fonts/Inter/TTF/Inter-Italic.ttf') format('truetype'), url('../fonts/Inter/OTF/Inter-Italic.otf') format('opentype');
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  src: url('../fonts/Inter/WEB/Inter-SemiBold.woff') format('woff'), url('../fonts/Inter/TTF/Inter-SemiBold.ttf') format('truetype'), url('../fonts/Inter/OTF/Inter-SemiBold.otf') format('opentype');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  src: url('../fonts/Inter/WEB/Inter-SemiBoldItalic.woff') format('woff'), url('../fonts/Inter/TTF/Inter-SemiBoldItalic.ttf') format('truetype'), url('../fonts/Inter/OTF/Inter-SemiBoldItalic.otf') format('opentype');
+  font-style: italic;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  src: url('../fonts/Inter/WEB/Inter-Light-BETA.woff') format('woff'), url('../fonts/Inter/TTF/Inter-Light-BETA.ttf') format('truetype'), url('../fonts/Inter/OTF/Inter-Light-BETA.otf') format('opentype');
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  src: url('../fonts/Inter/WEB/Inter-LightItalic-BETA.woff') format('woff'), url('../fonts/Inter/TTF/Inter-LightItalic-BETA.ttf') format('truetype'), url('../fonts/Inter/OTF/Inter-LightItalic-BETA.otf') format('opentype');
+  font-style: italic;
+  font-weight: 200;
+}

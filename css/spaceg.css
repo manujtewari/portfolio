@@ -1,0 +1,14 @@
+/* hkgrotesk @font-face kit */
+@font-face {
+  font-family: 'spacegSB';
+
+  src: url('../fonts/spaceg/SpaceGrotesk-SemiBold.ttf') format('truetype');
+ 
+}
+
+@font-face {
+  font-family: 'spacegR';
+
+  src: url('../fonts/spaceg/SpaceGrotesk-Regular.ttf') format('truetype');
+ 
+}

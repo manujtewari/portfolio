@@ -1,179 +1,260 @@
 <!doctype html>
 <html lang="en">
     <head>
-            <title>Manuj Tewari | UX Designer</title>
+            <title>Manuj Tewari | Interaction Designer / UX Designer</title>
+            <link rel="stylesheet" href="css/bootstrap.min.css">
             <link rel="stylesheet" href="css/circular-std.css">
             <link rel="stylesheet" href="css/inter.css">
+            <link rel="stylesheet" href="css/spaceg.css">
             <link rel="stylesheet" href="css/style.css">
+
+
             <script src="http://code.jquery.com/jquery-latest.js"></script>
+            <script src="js/bootstrap.min.js"></script>
             <script src="js/style.js"></script>
     </head>
 
-    <body>
+    <body> 
         
-<!--         <div id="topnav_container" >
-            <div class="top_nav">
-                <div class="brand">
-                    <a href="index.html">Manuj Tewari</a> 
+       
+<!--       
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top ">
+        <a class="navbar-nav p-3" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg></span>
+        </button>
+        
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav ml-auto ">
+            
+            <li class="nav-item px-3">
+              <a class="nav-link " href="about.html">Work</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link " href="about.html">About</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link " href="#">Resume</a>
+            </li>
+           
+          </ul>
+        </div>
+      </nav> -->
+
+
+
+      <div class="">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-light p-4">
+           
+       
+            <ul class="list-group list-group-flush ">
+              <a href="index.html" class=""><li class="list-group-item text-right bg-light p-2"><h4>HOME</h4></li></a>
+              <!-- <a href="#"><li class="list-group-item text-right bg-light p-2"><h4>WORK</h4></li></a> -->
+              <a href="about.html"><li class="list-group-item text-right bg-light p-2"><h4>ABOUT</h4></li></a>
+            </ul>
+            
+          </div>
+        </div>
+
+        <nav class="navbar navbar-light bg-white border-0 p-3">
+          <button class="navbar-toggler btn-light border-0 ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""><img src="images/icons/navigation/menu.svg" width="35"></span>
+          </button>
+        </nav>
+      </div>
+      
+
+
+        <div class="container-fluid ">
+            <div class="row p-4" >
+                <div class="col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+                <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 p-5 ">
+                        
+                       
+                        
+                        <p><img src="images/profile_pic6.png" width="130"></p>
+                        
+                        <h1 class="intro" style="color: #222;">Manuj Tewari<br>is a Visual & User-experience Designer, building simple and delightful technology.  </h1>
+                        <br>
+                        <p>Currently working with <a href="https://www.ibm.com/in-en/cloud" target="_blank" class="font-weight-bold" style=" color:#333; border-bottom: 1px dotted #333; text-decoration: none;">IBM Cloud</a> designing enterprise developer tools. Previously worked with <a href="https://www.ibm.com/in-en/cloud" target="_blank" class="font-weight-bold" style="color:#333; border-bottom: 1px dotted #333; text-decoration: none;">Naukri.com</a> <br> User Research &bull; Interaction Design &bull; User Interface Design &bull; Visual Design &bull; Prototyping</p>
+                        
+                        <ul class="list-group list-group-horizontal border-0 text-muted">
+                          
+                          <li class="list-group-item border-0 bg-transparent"><a href="https://www.linkedin.com/in/manujtewari/" class="" target="_blank" data-toggle="tooltip" title="Linkedin"><img src="images/icons/social/icon_linkedin.svg" width="20"></a></li>
+                          <li class="list-group-item border-0 bg-transparent"><a href="https://www.instagram.com/manuj_tewari/" target="_blank" data-toggle="tooltip" title="Instagram"><img src="images/icons/social/icon_instagram.svg" width="20"></a></li>
+                          <li class="list-group-item border-0 bg-transparent"><a href="https://dribbble.com/manujt1" target="_blank" data-toggle="tooltip" title="Dribbble"><img src="images/icons/social/icon_dribbble.svg" width="20"></a></li>
+                          
+                          
+                          <li class="list-group-item border-0">
+                            <svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                              <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                            </svg>
+                             Bengaluru, IN</li>
+                        </ul>
+                        <br><br><br><br>
+
+                        <!-- <img src="images/icons/navigation/arrow-down.svg"> -->
+                        
                 </div>
-                <div class="nav_menu">
-                    <ul>
-                        <li><a href="#" class="nav_menu">Work</a></li>
-                        <li><a href="about.html" class="nav_menu">About</a></li>
-                    </ul>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+            </div>     
+        </div>
+
+
+
+    
+
+            <div class="container-fluid">
+              
+              
+
+              <!--IBM DIGITAL APP BUILDER-->
+
+              <div class="row" >
+                
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-5" style="background-color:#f2f4f8;">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
+                    <div class="col-lg-10 p-5">
+                      
+                      <p class="text-muted">Enterprise &nbsp; &bull; &nbsp; IBM &nbsp; &bull; &nbsp; 2019</p>
+                      <h2>Build AI rich apps, faster, with IBM Digital App Builder</h2>
+                      <br>
+                      <p>A desktop tool that lets business developers consume the IBM Cloud & AI services to create AI-rich digital apps through a drag-n-drop interface. </p>
+                      <br><br><br><br>
+                      <a class="btn btn-light" href="https://www.notion.so/IBM-Digital-App-Builder-Build-AI-rich-apps-faster-0c0f25916e7241349ad4571a5fee3358" target="_blank" role="button">View case study &nbsp; <img src="images/icons/navigation/arrow-right.svg"> </a>
+                      <br><br><br><br><br><br>
+                     
+                      
+                      
+                    </div>
+                    <div class="col-lg-2"></div>
+                  </div>
                 </div>
+
+                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0" style="background: url('images/dab/DAB-thumb4.jpg') #0062ff  center center no-repeat; background-size: 70em;"></div>
+                 
+              </div>
+              
+
+
+
+              <!--FYST FIND YOUR STRENGTH-->
+
+              <div class="row" >
+                
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0" style="background: url('images/fyst/watch6.png') #e8daff center center no-repeat; background-size: 70em;"></div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-5" style="background-color:#fff;">
+                  <div class="row">
+                    <div class="col-lg-0 col-md-0 col-sm-0 col-xs-0"></div>
+                    <div class="col-lg-10 p-5">
+                      
+                      <p class="text-muted">Health & Wellness &nbsp; &bull; &nbsp; NID Project &nbsp; &bull; &nbsp; 2016</p>
+                      <h2>Track and improve your fitness with Fyst wearable app</h2>
+                      <br>
+                      <p>A fitness app for wearables that tracks your daily routine and provides a personalized exercise experience to keep you motivated and healthy. </p>
+                      <br><br><br><br>
+                      <a class="btn btn-light" href="https://www.behance.net/gallery/52778389/Fyst-Find-Your-Strength-Health-App" target="_blank" role="button">View case study &nbsp; <img src="images/icons/navigation/arrow-right.svg"> </a>
+                      <br><br><br><br><br><br>
+                     
+                      
+                      
+                    </div>
+                    <div class="col-lg-2"></div>
+                  </div>
+                </div>
+
+              </div>
+
+
+
+
+              <!--Easybank-->
+
+              <div class="row" >
+                
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-5" style="background-color:#f2f4f8;">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
+                    <div class="col-lg-10 p-5">
+                      
+                      <p class="text-muted">Fintech &nbsp; &bull; &nbsp; NID Project &nbsp; &bull; &nbsp; 2019</p>
+                      <h2>A humane ATM experience with Easybank</h2>
+                      <br>
+                      <p>A desktop tool that lets business developers consume the IBM Cloud & AI services to create AI-rich digital apps through a drag-n-drop interface. </p>
+                      <br><br><br><br>
+                      <a class="btn btn-light" href="https://www.behance.net/gallery/47388837/Easybank-A-Better-ATM-Experience" target="_blank" role="button">View case study &nbsp; <img src="images/icons/navigation/arrow-right.svg"> </a>
+                      <br><br><br><br><br><br>
+                     
+                      
+                      
+                    </div>
+                    <div class="col-lg-2"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0" style="background: url('images/easybank/easybank2.jpg') #222 center no-repeat; background-size: 90em;"></div>
+
+              </div>
+              
+
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
             </div>
-        </div> -->
+                 
+            
+                
+      
+           
         
-        
-        
-        <div id="hero_container" style="padding-top:6vh">
-            <div class="hero">
+        <!-- <div class="hero">
+
                 <div class="intro">
                     
-                    
+                    <p><span>&#128075;</span> Hi. I am </p>
                     <h1> Manuj Tewari </h1>
-                    <p><span>&#128075;</span> A Visual & User Experience Designer who loves solving problems by crafting innovative and purposeful design solutions. Currently designing experiences at <a href="https://www.ibm.com/in-en">IBM</a></p>
-                    <p><a href="https://twitter.com/manujtewari" class="" target="_blank"><img src="images/icons/icon_twitter.svg" style="width:4vh;" alt="Check-out my tweets"></a> &nbsp; <a href="https://www.linkedin.com/in/manujtewari/" class="" target="_blank"><img src="images/icons/icon_linkedin.svg" style="width:4vh;" alt="Aah, the usual networking"></a></p>    
-                    <hr>
-                    <p style="font-size: 3vh;">🚧This portfolio is under construction. You can check out my work on <a href="https://www.behance.net/manujtewari" class="" target="_blank">Behance</a> | <a href="Resume_ManujTewari.pdf" class="" target="_blank">Download Resume</a></p>
-                  
-                    
+                    <p>A User Experience Designer who loves solving problems by crafting innovative and purposeful design solutions. Currently designing experiences at <a href="https://www.ibm.com/in-en">IBM</a></p>
+                
+                    <p><a href="https://twitter.com/manujtewari" class="" target="_blank"><img src="images/icons/icon_twitter.svg" style="width:6vh;" alt="Twitter"></a> &nbsp; <a href="https://www.linkedin.com/in/manujtewari/" class="" target="_blank"><img src="images/icons/icon_linkedin.svg" style="width:6vh;" alt="Linkedin"></a></p>    
                 </div>
                 
 
-<!--                  <div class="avatar">
-                    <img src="images/profile_picture.jpg" class="avatar_img">
-                </div>  -->
+               
 
-            </div>
-        </div>
-
-
-<!--
-
-        <div class="project_container">
-
-            <a class="project dab" href="dab.html">
-                
-                <div class="project_content" >
-                    <h1>IBM Digital App Builder</h1>
-                    <p>Tool to build multi-channel AI apps, faster</p> 
-                             
-                </div>  
-                
-                
-            </a>
-                
-        </a>
-            
-
-        </div>
-
-
-        <div class="project_container">
-
-            <a class="project fyst" href="fyst.html">
-                
-                <div class="project_content" >
-                    <h1>Fyst</h1>
-                    <p>Healthcare app for working young adults</p> 
-                                   
-                </div>  
-                
-                
-            </a>
-                
-        </a>
-            
-
-        </div>
-
-        <div class="project_container">
-
-            <a class="project easybank" href="easybank.html">
-                        
-                    <div class="project_content">
-                        <h1>Easybank</h1>
-                        <p>Designing an improved ATM experience</p>
-                    </div>         
-                    
-                    
-            </a>
-
-        </div>
-
-
-        <div class="project_container">
-
-           <a class="project marham" >
-                
-                <div class="project_content">
-                    <h1>Marham</h1>
-                    <p>A home-remedy mobile app</p>                  
-                </div>  
-                
-            </a>
-
-        </div>
+        </div> -->
 
 
 
-        <div class="project_container">
 
-            <a class="project infoedge" >
-                        
-                    <div class="project_content">
-                        <h1>Infoedge</h1>
-                        <p>Self-serving Ad platform for advertisers</p>
-                    </div>         
-                    
-                    
-            </a>
-
-        </div>
-
-        <div class="project_container">
-
-           <a class="project instasell" >
-                
-                <div class="project_content">
-                    <h1>Instasell</h1>
-                    <p>Sell artworks, tickets & subscriptions in an instant</p>                  
-                </div>  
-                
-            </a>
-
-        </div>
+       
 
 
-        <div class="project_container">
-
-            <a class="project instasell" style="width:50%;">
-                 
-                 <div class="project_content">
-                     <h1>Instasell</h1>
-                     <p>Sell artworks, tickets & subscriptions in an instant</p>                  
-                 </div>  
-                 
-             </a>
-
-             <a class="project axis" style="width:50%;">
-                 
-                <div class="project_content">
-                    <h1>Axis Bank Designathon</h1>
-                    <p>Sell artworks, tickets & subscriptions in an instant</p>                  
-                </div>  
-                
-            </a>
- 
-         </div>
+       
 
 
 
 
         
--->
+
 
     </body>
 </html>
